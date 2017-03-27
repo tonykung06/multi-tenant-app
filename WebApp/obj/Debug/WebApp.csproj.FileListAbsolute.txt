@@ -63,3 +63,9 @@ C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\bin\EntityFramew
 C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\obj\Debug\WebApp.Migrations.InitialCreate.resources
 C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\obj\Debug\WebApp.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\obj\Debug\WebApp.Migrations.addsessionandspeaker.resources
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\bin\Owin.dll
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml

@@ -45,3 +45,8 @@ C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\obj\Debug\
 C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\obj\Debug\WebApp.Tests.pdb
 C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\bin\Debug\EntityFramework.dll
 C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\bin\Debug\Owin.dll
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Documents\GitHub\multi-tenant-app\WebApp.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml

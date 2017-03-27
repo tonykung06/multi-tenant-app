@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace WebApp.Controllers
 {
-    public class SpeakerController : Controller
+    public class SpeakerController : MultiTenantMvcController
     {
         // GET: Speaker
         public ActionResult Index()
         {
-            return View();
+            return View("Index", Tenant);
         }
     }
 }
