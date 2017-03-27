@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebApp.Models.Tenant>
+﻿@model List<WebApp.Models.Tenant>
 
 @{
     Layout = null;
@@ -8,18 +8,20 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>List of Tenants</title>
+    <title>List of tenants</title>
 </head>
 <body>
-    <div>
-        <ul>
-            @foreach (var tenant in @Model)
-            {
-                <li>@tenant.Name</li>
-                <li>...@tenant.DomainName</li>
-            }
-        </ul>
-    </div>
+<div>
+    <ul>
+        @foreach (var tenant in @Model)
+        {
+            <li>@tenant.Name</li>
+            <li>...@tenant.DomainName</li>
+        }
+
+
+    </ul>
+
+</div>
 </body>
 </html>

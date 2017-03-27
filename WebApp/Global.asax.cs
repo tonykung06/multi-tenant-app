@@ -19,6 +19,10 @@ namespace WebApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            // using our custom view engine
+            ViewEngines.Engines.Clear();
+            ViewEngines.Engines.Add(new MultTenantViewEngine());
         }
     }
 }

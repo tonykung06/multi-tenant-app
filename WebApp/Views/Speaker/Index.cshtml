@@ -1,5 +1,4 @@
-﻿@model WebApp.Models.Tenant
-
+﻿@model List<WebApp.Models.Speaker>
 @{
     Layout = null;
 }
@@ -8,39 +7,9 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>title view/speaker/index</title>
 </head>
 <body>
-    <div>
-        <h4>Tenant</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Name)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Name)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.DomainName)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.DomainName)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Default)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Default)
-            </dd>
-    
-        </dl>
-    </div>
+   
 </body>
 </html>

@@ -179,6 +179,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\MultiTenantControllerAllowAttribute.cs" />
     <Compile Include="Controllers\MultiTenantMvcController.cs" />
     <Compile Include="Controllers\SessionController.cs" />
     <Compile Include="Controllers\SpeakerController.cs" />
@@ -187,6 +188,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\HtmlHelperExtensions.cs" />
     <Compile Include="Helpers\ITCache.cs" />
     <Compile Include="Helpers\TCache.cs" />
     <Compile Include="Helpers\TCacheInternal.cs" />
@@ -203,6 +205,8 @@
     <Compile Include="Models\Session.cs" />
     <Compile Include="Models\Speaker.cs" />
     <Compile Include="Models\Tenant.cs" />
+    <Compile Include="Models\Utils.cs" />
+    <Compile Include="MultiTenantViewEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -250,7 +254,21 @@
     <Content Include="Views\Tenant\Index.cshtml" />
     <EmbeddedResource Include="session.json" />
     <EmbeddedResource Include="speaker.json" />
+    <Content Include="Views\SVCC\Speaker\Index.cshtml" />
     <Content Include="Views\Speaker\Index.cshtml" />
+    <Content Include="Views\ANGU\Shared\_Layout.cshtml" />
+    <Content Include="Views\ANGU\Speaker\Index.cshtml" />
+    <Content Include="Views\CSSC\Home\CodeOfConduct.cshtml" />
+    <Content Include="Views\CSSC\Home\Index.cshtml" />
+    <Content Include="Views\CSSC\Session\Detail.cshtml" />
+    <Content Include="Views\CSSC\Shared\_Layout.cshtml" />
+    <Content Include="Views\CSSC\Shared\_TopMenu.cshtml" />
+    <Content Include="Views\SVCC\Home\Index.cshtml" />
+    <Content Include="Views\SVCC\Session\Detail.cshtml" />
+    <Content Include="Views\SVCC\Session\Index.cshtml" />
+    <Content Include="Views\SVCC\Shared\_Layout.cshtml" />
+    <Content Include="Views\SVCC\Shared\_TopMenu.cshtml" />
+    <Content Include="Views\SVCC\Speaker\Detail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
